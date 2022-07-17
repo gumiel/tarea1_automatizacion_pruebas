@@ -33,7 +33,7 @@ public class AutenticationTest {
 
     }
 
-    @Test
+    /*@Test
     public void loginFailTest(){
 
 
@@ -51,5 +51,5 @@ public class AutenticationTest {
         Mockito.verify(credentialsServiceMock).isValidCredential("admin","12356");
         Mockito.verify(permissionServiceMock).getPermission("admin");
 
-    }
+    }*/
 }

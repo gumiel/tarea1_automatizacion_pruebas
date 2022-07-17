@@ -29,7 +29,7 @@ public class AuthenticationStaticTest {
         objectPermissionMocked.close();
     }
 
-    @Test
+    /*@Test
     public void loginFailTest(){
         MockedStatic<CredentialsStaticService> objectCredentialMocked = Mockito.mockStatic(CredentialsStaticService.class);
         MockedStatic<PermissionStaticService> objectPermissionMocked = Mockito.mockStatic(PermissionStaticService.class);
@@ -46,6 +46,6 @@ public class AuthenticationStaticTest {
 
         objectCredentialMocked.close();
         objectPermissionMocked.close();
-    }
+    }*/
 
 }
